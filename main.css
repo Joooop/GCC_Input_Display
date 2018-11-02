@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+@font-face {
+  font-family: BigJohn;
+  src: url(../font/bigjohn.otf);
+}
+a {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+}
+
+h1 {
+  font-family: "Barlow", sans-serif;
+}
+
+h2 {
+  font-family: "Barlow", sans-serif;
+}
+
+h3 {
+  font-family: "Barlow", sans-serif;
+}
+
+* {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  background-color: #d8d8c0;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-family: BigJohn;
+  text-transform: uppercase;
+  color: #171017;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: BigJohn;
+  text-transform: uppercase;
+  line-height: 1.3;
+  color: #171017;
+}
+
+h3 {
+  font-size: 2.25rem;
+  font-family: BigJohn;
+  text-transform: uppercase;
+  line-height: 1.1;
+  color: #171017;
+}
+
+h4 {
+  font-size: 3rem;
+  font-family: BigJohn;
+  text-transform: uppercase;
+  color: #171017;
+}
+
+h5 {
+  font-size: 2.5rem;
+  font-family: BigJohn;
+  text-transform: uppercase;
+  color: #171017;
+}
+
+h6 {
+  font-size: 2rem;
+  font-family: BigJohn;
+  text-transform: uppercase;
+  color: #171017;
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: "Barlow", sans-serif;
+  color: #171017;
+}
+
+a {
+  font-size: 1.6rem;
+  font-family: "Barlow", sans-serif;
+  color: #171017;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: inherit;
+}
+
+
+.content .title {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.content .title h1 {
+  font-family: "Barlow", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.content .title h2 {
+  font-family: "Barlow", sans-serif;
+  text-transform: lowercase;
+  text-align: center;
+  font-weight: 200;
+}
+
+.content .title p {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  text-transform: lowercase;
+}
+
+.content .title #standalone {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.content .title #standalone label {
+  font-family: "Barlow", sans-serif;
+}
+
+.content .title #standalone input {
+  font-family: "Barlow", sans-serif;
+}
+
+.content .title a {
+  display: block;
+  width: 410px;
+  margin: 0 auto;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.content .title a:hover {
+  background-color: #62beeb;
+  color: #323232;
+}
+
+.content .display {
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.content .display#standalone {
+  width: 500px !important;
+  margin: 0;
+}
+
+.content .display#standalone #controllerDisplay {
+  background-color: transparent;
+}
+
+.content .display #controllerPrompt {
+  font-family: "Barlow", sans-serif;
+}
+
+.content .display p {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  text-transform: lowercase;
+}
+
+.content .display p#note {
+  font-size: 13px;
+}
+
+.content .display #controllerDisplay {
+  position: relative;
+  background-color: #ccfff0;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+.content .display #controllerDisplay rect {
+  stroke-width: 5px;
+}
+
+.content .display #controllerDisplay * {
+  -webkit-transition: all 0s linear !important;
+  transition: all 0s linear !important;
+}
+
+.content .display #controllerDisplay a {
+  margin: 0 !important;
+  padding: 4px;
+  position: absolute;
+  color: black;
+  font-family: "Barlow", sans-serif;
+  display: inline !important;
+  background-color: transparent;
+  bottom: 3px;
+  text-align: right;
+  right: 3px;
+  width: 73px;
+}
+
+.content .display #controllerDisplay a:hover {
+  color: white;
+  background-color: black;
+}
+
+.content .display #raw-values {
+  display: none;
+}
+
+.content .display #raw-values.is-showing {
+  display: block;
+}
+
+.content .display #raw-values p {
+  text-align: left;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.content .display a {
+  display: block;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.content .display a:hover {
+  background-color: #62beeb;
+  color: #323232;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GCC Viewer</title>
+    <!--css-->
+    <link rel="stylesheet" href="main.css">
+
+    <!--javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!--SVG Parser-->
+    <script type="text/javascript" src="svg.js"></script>
+    
+    <!--meta    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta property="og:type" content="website">
+
+    <!--title   -->
+    <meta property="og:title" content="GCC Viewer">
+
+    <!--page description -->
+    <meta name="description" content="">
+  </head>
+  <body>
+    <div class="content">
+      <div class="title">
+        <h1>Gamecube Controller Input Viewer</h1>
+        <hr>
+        <h2>View live inputs from your Gamecube Controller - lightweight tool useful for stream overlays</h2>
+        <p>Tested and working on firefox/chrome with <b>mayflash 4-port adapter in PC mode</b> (detects lowest active controller)</p>
+        <div id="standalone">
+          <label>Standalone link for stream source: </label>
+          <input type="text" readonly value="joemar.me/software/gcc/standalone.html" onClick="this.select();" size="28">
+        </div>
+      </div>
+      <div class="display">
+        <div id="controllerPrompt"></div>
+        <div id="controllerDisplay"><img class="svg" id="display" src="minimal.svg"><a id="raw">raw values</a></div>
+        <div id="raw-values"></div><a href="https://twitter.com/J0ooop" target="_blank">if you like it, consider following me on twitter @j0ooop</a>
+        <p id="note">* also if you have any suggestions or problems, let me know on twitter</p>
+      </div>
+    </div>
+    <script type="text/javascript" src="display.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

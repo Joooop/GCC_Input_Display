@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-232.6 282.5 572.1 436.4" style="enable-background:new -232.6 282.5 572.1 436.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00D631;}
+	.st1{fill:#A3A3A3;}
+	.st2{fill:#FFF544;}
+	.st3{fill:#FF0808;}
+	.st4{fill:#A114FF;}
+</style>
+<rect id="display_a" x="267.1" y="469.7" class="st0" width="62.1" height="62.1"/>
+<rect id="display_joystick" x="-223" y="382.6" class="st1" width="149.2" height="149.2"/>
+<rect id="display_cstick" x="105.4" y="561.8" class="st2" width="149.2" height="149.2"/>
+<rect id="display_b" x="180" y="469.7" class="st3" width="62.1" height="62.1"/>
+<rect id="display_start" x="38.1" y="475.9" class="st1" width="37.3" height="37.3"/>
+<rect id="display_dpad_l" x="-147.7" y="611.8" class="st1" width="49.2" height="49.2"/>
+<rect id="display_dpad_u" x="-98.4" y="562.5" class="st1" width="49.2" height="49.2"/>
+<rect id="display_dpad_d" x="-98.4" y="661" class="st1" width="49.2" height="49.2"/>
+<rect id="display_dpad_r" x="-49.2" y="611.8" class="st1" width="49.2" height="49.2"/>
+<rect id="display_y" x="180" y="382.6" class="st1" width="62.1" height="62.1"/>
+<rect id="display_cstick_nub" x="161.3" y="617.7" width="37.3" height="37.3"/>
+<rect id="display_joystick_nub" x="-167.1" y="438.6" width="37.3" height="37.3"/>
+<rect id="display_r" x="180" y="290.5" class="st1" width="149.2" height="62.1"/>
+<rect id="display_z" x="87.9" y="290.5" class="st4" width="62.1" height="62.1"/>
+<rect id="display_l" x="-222.3" y="290.5" class="st1" width="149.2" height="62.1"/>
+<rect id="display_x" x="267.1" y="382.6" class="st1" width="62.1" height="62.1"/>
+</svg>
